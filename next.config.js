@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    images:[{
+        hostname: 'lh3.googleusercontent.com'
+    }]
+}
+
 
 module.exports = nextConfig
